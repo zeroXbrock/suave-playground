@@ -27,5 +27,8 @@
   },
   "scripts": {
     "start": "node ./src/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.2"
   }
 }

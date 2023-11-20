@@ -29,8 +29,8 @@ export default {
   },
   networks: {
     suave: {
-      chainId: 424242,
-      gasPrice: 0,
+      chainId: 16813125,
+      gasPrice: 60000000,
       url: SUAVE_RPC,
       accounts: [ SUAVE_PK ]
     },

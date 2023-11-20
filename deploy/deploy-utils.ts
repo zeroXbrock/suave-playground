@@ -19,6 +19,7 @@ function _makeDeployCallback(deployOptions: DeployOptions): any {
         const { deployer } = await getNamedAccounts()
 
         log(deployOptions.name)
+        console.log("deployer", deployer)
         const deployResult = await deploy(deployOptions.name, {
             from: deployer,
             contract: deployOptions.contractName,
